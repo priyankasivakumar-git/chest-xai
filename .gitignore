@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+tf_gpu_env/
+venv/
+.venv/
+
+# Trained deep learning models
+*.h5
+*.keras
+
+# Uploaded patient/X-ray images
+backend/uploads/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment/secrets
+.env
+
+# Windows/system files
+Thumbs.db
+.DS_Store
